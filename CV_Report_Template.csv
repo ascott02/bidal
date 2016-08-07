@@ -1,35 +1,35 @@
 Title, Classifier, Data Set, Parameters, Source,Access Date, ,,
 CV Confusion Matrices, RF, April_Partitions, ntrees=100,https://www.dropbox.com/s/0lgak3jvok1e4pc/kcross.py?dl=0,"August 1st, 2016", ,,
 ,,,,,,,,
-,,Class Multi,A0,A1,A2,A3,A4,Stats
-,,P0, , , , ,,P0_Precision
-,,P1, , , , ,,P1_Precision
-,,P2, , , , ,,P2_Precision
-,,P3, , , , , ,P3_Precision
-,,P4, , , , , ,P4_Precision
+Accuracy,val,Class Multi,A0,A1,A2,A3,A4,Stats
+Precision,val,P0,val,val,val,val,val,P0_Precision
+Sensitivity,val,P1,val,val,val,val,val,P1_Precision
+Specificity,val,P2,val,val,val,val,val,P2_Precision
+,,P3,val,val,val,val,val,P3_Precision
+,,P4,val,val,val,val,val,P4_Precision
 ,,Stats,P0_Sensitivity,P1_Sensitivity,P2_Sensitivity,P3_Sensitivity,P4_Sensitivity,Accuracy
 ,,,,,,,,
-,,Class 0,AP,AN,Stats,,,
-,,PP, , ,Precision,,,
-,,PN, , ,Negative Precision, ,,
-,,Stats,Sensitivity,Specificity,Accuracy, ,,
+Accuracy,val,Class 0,AP,AN,Stats,,,
+Precision,val,PP,val,val,Precision,,,
+Sensitivity,val,PN,val,val,Negative Precision, ,,
+Specificity,val,Stats,Sensitivity,Specificity,Accuracy, ,,
 ,,,,,,,,
-,,Class 1,AP,AN,Stats,,,
-,,PP, , ,Precision,,,
-,,PN, , ,Negative Precision, ,,
-,,Stats,Sensitivity,Specificity,Accuracy, ,,
+Accuracy,val,Class 1,AP,AN,Stats,,,
+Precision,val,PP,val,val,Precision,,,
+Sensitivity,val,PN,val,val,Negative Precision, ,,
+Specificity,val,Stats,Sensitivity,Specificity,Accuracy, ,,
 ,,,,,,,,
-,,Class 2,AP,AN,Stats,,,
-,,PP, , ,Precision,,,
-,,PN, , ,Negative Precision, ,,
-,,Stats,Sensitivity,Specificity,Accuracy, ,,
+Accuracy,val,Class 2,AP,AN,Stats,,,
+Precision,val,PP,val,val,Precision,,,
+Sensitivity,val,PN,val,val,Negative Precision, ,,
+Specificity,val,Stats,Sensitivity,Specificity,Accuracy, ,,
 ,,,,,,,,
-,,Class 3,AP,AN,Stats,,,
-,,PP, , ,Precision,,,
-,,PN, , ,Negative Precision, ,,
-,,Stats,Sensitivity,Specificity,Accuracy, ,,
+Accuracy,val,Class 3,AP,AN,Stats,,,
+Precision,val,PP,val,val,Precision,,,
+Sensitivity,val,PN,val,val,Negative Precision, ,,
+Specificity,val,Stats,Sensitivity,Specificity,Accuracy, ,,
 ,,,,,,,,
-,,Class 4,AP,AN,Stats,,,
-,,PP, , ,Precision,,,
-,,PN, , ,Negative Precision, ,,
-,,Stats,Sensitivity,Specificity,Accuracy, ,,
+Accuracy,val,Class 4,AP,AN,Stats,,,
+Precision,val,PP,val,val,Precision,,,
+Sensitivity,val,PN,val,val,Negative Precision, ,,
+Specificity,val,Stats,Sensitivity,Specificity,Accuracy, ,,
